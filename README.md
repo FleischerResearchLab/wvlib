@@ -1,3 +1,14 @@
+Using PubMed trained Word2Vec word embeddings to see 
+if known gene-disease relationships are reliably 
+encoded in vector space. Based on the vectors from
+https://github.com/spyysalo/wvlib
+ 
+2020-02-22
+jfleischer@ucsd.edu
+
+Original README is below this line
+===========================
+
 wvlib - word vector library
 ===========================
 
