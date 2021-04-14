@@ -1,12 +1,19 @@
 Using PubMed trained Word2Vec word embeddings to see 
 if known gene-disease relationships are reliably 
-encoded in vector space. Based on the vectors from
-https://github.com/spyysalo/wvlib
+encoded in vector space. Code in this directory is 
+forked  from
+https://github.com/spyysalo/wvlib but TBH the command line interface 
+to do this analysis was an early
+idea that I basically abonded.  Instead I started a notebook
+"Vector similarity.ipynb" which does the analogy task in demo form.
+
+The embeddings I used came from http://evexdb.org/pmresources/vec-space-models/ and are multi-GB files that are not under source code control. You will need to download wikipedia-pubmed-and-PMC-w2v.bin and PubMed-w2v.bin to get the notebook to work locally for you.
+
  
 2020-02-22
 jfleischer@ucsd.edu
 
-Original README is below this line
+Original README of the forked project is below this line
 ===========================
 
 wvlib - word vector library
